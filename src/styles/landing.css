@@ -1,0 +1,161 @@
+.carousel-image-container {
+  position: relative;
+}
+
+.gradient-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to left, transparent 40%, #168784);
+  z-index: 1;
+}
+
+.logoContainer a {
+  padding-top: 8px;
+  padding-bottom: 7px;
+}
+
+.block-description {
+  padding-top: 15px;
+}
+
+.carousel-image {
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+}
+
+.section-join {
+  margin-bottom: 8%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.join-title {
+  color: #fff;
+  font-weight: bold !important;
+  margin-top: 25px !important;
+  text-transform: uppercase;
+  padding-top: 40px;
+}
+
+.apart-title {
+  font-weight: bold !important;
+  text-transform: uppercase;
+}
+
+.section-apart {
+  border-top: 4px solid;
+  border-top-left-radius: 65px;
+  border-bottom-left-radius: 65px;
+  border-bottom: 4px solid;
+  border-color: #0abab5;
+  padding: 25px 5%;
+  background: #fff;
+
+}
+
+.commText {
+  font-weight: bold !important;
+  font-size: 48px;
+  color: #18908d;
+}
+
+.verify-desc {
+  color: #fff;
+  margin-top: 25px !important;
+  font-weight: 300 !important;
+  text-align: left !important;
+  font-size: 14px !important;
+  padding: 0 15px;
+}
+
+.verify-desc p {
+  padding-top: 10px;
+}
+
+.customButton {
+  background-color: #4ba09e !important;
+  border-radius: 20px !important;
+  padding: 2px 20px !important;
+  color: #fff !important;
+  font-weight: bold !important;
+}
+
+.comm-grid {
+  padding: 13% 15% 0 6% !important;
+}
+
+.desc {
+  padding: 35px 18%;
+  font-weight: 600 !important;
+  font-size: 14px !important;
+}
+
+.community-img {
+  position: relative;
+  width: 100%;
+  height: auto;
+
+  top: -10%;
+}
+
+.imgContainer {
+  height: 201px;
+  position: relative;
+  overflow: hidden;
+  left: -50%;
+  opacity: 0.5;
+  top: 14%;
+}
+
+.img-section {
+  width: 100%;
+}
+
+.logo-img {
+  width: 100%;
+}
+
+.custom-menu-paper {
+  left: 0 !important;
+  top: auto !important;
+  width: 100%;
+  max-width: 100% !important;
+}
+
+.btn-subscribe {
+  padding: 14px 30px !important;
+  border-radius: 30px !important;
+  margin-left: 10px !important;
+  color: #fff !important;
+  background: #18908d !important;
+}
+
+@media (max-width: 600px) {
+  .imgContainer {
+    display: none;
+  }
+
+  .comm-grid {
+    padding: 13% 15px !important;
+  }
+
+  .gradient-overlay {
+    background: linear-gradient(to left, transparent 4%, #168784);
+  }
+}
+
+.social-icons {
+  margin-top: 10px;
+}
+
+.social-icons a {
+  color: #18908d;
+  font-size: 25px;
+  padding-right: 10px;
+}

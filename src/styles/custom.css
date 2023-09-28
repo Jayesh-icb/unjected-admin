@@ -1,0 +1,117 @@
+.carousel-image-container {
+  position: relative;
+}
+
+body {
+  background-color: #fffbf4 !important;
+}
+
+.box-container {
+  background: #fff;
+  border-radius: 35px;
+  box-shadow: 2px 2px 4px rgba(0.2, 0.2, 0.2, 0.2);
+  padding: 25px;
+}
+
+.main-container {
+  padding: 0;
+  min-height: 550px;
+  margin-bottom: 35px;
+}
+
+.linkContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-size: small;
+}
+
+.customButton1 {
+  background-color: #4ba09e !important;
+  border-radius: 20px !important;
+  padding: 3px 45px !important;
+  color: #fff !important;
+  font-weight: bold !important;
+  width: auto !important;
+  display: block !important;
+  margin: 15px auto !important;
+}
+
+.roundedTextbox input {
+  padding: 10px;
+}
+
+.roundedTextbox {
+  margin-bottom: 8px;
+}
+
+.grid-section {
+  margin: auto;
+  padding: 16px 0;
+  padding-bottom: 0px;
+}
+
+.logo-avatar,
+.logo-avatar img {
+  width: 75px !important;
+  height: auto !important;
+  background: transparent !important;
+  border-radius: 0 !important;
+}
+
+.btnBlue {
+  background-color: #4ba09e !important;
+  border-radius: 20px !important;
+  color: #fff !important;
+  font-weight: bold !important;
+  width: auto !important;
+  display: block !important;
+}
+
+.custom-bg {
+  background-image: linear-gradient(
+      to right,
+      rgba(74, 177, 175, 0.9),
+      rgba(74, 177, 175, 0.9)
+    ),
+    url('../assets/profile.png');
+  background-size: cover;
+}
+
+.btnWhite {
+  background-color: transparent !important;
+  border-color: #4ba09e !important;
+  border: 1px solid !important;
+  border-radius: 20px !important;
+  color: #fff !important;
+  font-weight: bold !important;
+  width: auto !important;
+  display: block !important;
+  color: #4ba09e !important;
+  text-align: center !important;
+}
+
+.right-section {
+  border-radius: 40px;
+  box-shadow: 0px 10px 6px -2px rgb(0 0 0 / 22%),
+    0px 3px 13px 7px rgb(0 0 0 / 17%), 0px 3px 6px 0px rgb(0 0 0 / 28%);
+}
+
+.left-section {
+  box-shadow: none !important;
+  background: none !important;
+}
+
+.verified {
+  text-decoration: none !important;
+  border: 2px solid;
+  padding: 10px;
+  background: #000;
+  color: #fff !important;
+}
+
+.verified svg {
+  vertical-align: text-bottom;
+  margin-right: 5px;
+}
